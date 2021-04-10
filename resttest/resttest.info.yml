@@ -1,0 +1,5 @@
+name: resttest
+description: headless rest api assignment
+type: module
+core: 8.x
+package: custom

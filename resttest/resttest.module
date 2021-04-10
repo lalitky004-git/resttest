@@ -1,0 +1,7 @@
+<?php
+function resttest_page_attachments(){
+    $client = \Drupal::httpClient();
+    $request = $client->get('https://api.publicapis.org/entries');
+    $response = $request->getBody()->getContents();
+    ksm($response);
+}
